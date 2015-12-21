@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{> head}}
+  </head>
+  <body>
+    {{> menu}}
+
+    <div class="fullwidthtop">
+      <div class="row clearfix">
+        <div class="col-md-12 column">
+          <div class="header-box">
+            <img src="/images/fuge-icon-inverse.png" alt="Rapid distributed system prototyping" height="auto">
+            <h2 class="hp tagline">fuge is an execution environment <br>for micro service development with Node.js</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row clearfix hp">
+        {{{contents}}}
+      </div>
+      <div class="callout">
+        <p>
+          Issues? From spelling errors to broken tutorials and everything in between, report
+          them <a href="https://github.com/apparatus/fuge.io/issues">here.</a>
+        </p>
+      </div>
+    </div>
+    {{> footer}}
+
+    {{> analytics}}
+  </body>
+</html>

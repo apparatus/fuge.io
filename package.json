@@ -1,0 +1,37 @@
+{
+  "name": "fuge.io",
+  "version": "0.0.1",
+  "description": "The website for fug",
+  "main": "build.js",
+  "license": "MIT",
+  "private": "true",
+  "scripts": {
+    "test": "echo \"INFO: No test specified.\"",
+    "build": "node build.js",
+    "docs": "node build.js -s",
+    "deploy": "surge --project ./dist/ --domain fuge.io"
+  },
+  "contributors": [
+    "Peter Elger (https://github.com/pelger)",
+    "David Clements (https://github.com/davidmarkclements)"
+  ],
+  "dependencies": {
+    "handlebars": "^3.0.3",
+    "metalsmith": "^1.7.0",
+    "metalsmith-annotate": "^0.1.1",
+    "metalsmith-download": "0.0.1",
+    "metalsmith-ignore": "^0.1.2",
+    "metalsmith-layouts": "^1.0.0",
+    "metalsmith-less": "^2.0.0",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-metallic": "^0.3.1",
+    "metalsmith-move-up": "1.0.0",
+    "metalsmith-register-partials": "^1.0.2",
+    "metalsmith-serve": "0.0.4",
+    "metalsmith-watch": "^0.2.0",
+    "minimist": "^1.1.1"
+  },
+  "devDependencies": {
+    "surge": "^0.15.0"
+  }
+}

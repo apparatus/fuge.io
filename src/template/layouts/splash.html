@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{> head}}
+  </head>
+  <body>
+    {{> menu}}
+
+    <div class="fullwidthtop">
+      <div class="row clearfix">
+        <div class="col-md-12 column">
+          <div class="header-box">
+            <img src="images/fuge-icon-inverse.png" alt="Rapid distributed system prototyping" height="auto">
+            <h2 class="hp tagline">fuge is an execution environment <br>for micro service development with Node.js</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class='container'>
+      <div class='row clearfix hp'>
+        <section class="install">
+          <pre> $ npm install fuge --global </pre>
+        </section>
+      </div>
+
+      {{> seperator}}
+
+      <h1 class="center">What is fuge?</h1>
+      <div class="row clearfix">
+        <div class="col-md-6 column">
+          <p>
+            Fuge is Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pulvinar, nisi eu tincidunt rutrum, purus erat dictum neque, et iaculis ligula magna a risus. Nulla faucibus lobortis urna, et fringilla sapien convallis finibus. 
+          </p>
+        </div>
+
+        <div class="col-md-6 column">
+          <p>
+           Sed facilisis gravida mi a condimentum. Sed ultricies libero et tincidunt gravida. Sed laoreet, neque eget blandit tincidunt, nulla dolor rutrum ligula, at rhoncus odio leo facilisis odio. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+          </p>
+        </div>
+      </div>
+
+      {{> seperator}}
+
+      <section class="content row center splash-content">
+        {{{ contents }}}
+      </section>
+
+      {{> seperator}}
+
+      <h1 class="center">Get Involved</h1>
+      <div class="row clearfix hp">
+        <div class="col-md-4">
+          <a class="grey-box" href="https://github.com/apparatus/fuge.io">
+            <i class="fa fa-download fa-5x"></i>
+            <h3>Download and install</h3>
+          </a>
+        </div>
+
+        <div class="col-md-4">
+          <a class="grey-box" href="/get-started/">
+            <i class="fa fa-bolt fa-5x"></i>
+            <h3>Quick start</h3>
+          </a>
+        </div>
+
+        <div class="col-md-4">
+          <a class="grey-box" href="https://gitter.im/apparatus/fuge">
+            <i class="fa fa-refresh fa-5x"></i>
+            <h3>Chat on Gitter</h3>
+          </a>
+        </div>
+      </div>
+
+      {{> seperator}}
+
+      <section class="using center">
+          <p>Are you using use fuge?</p>
+           <p> 
+            <a href="https://github.com/apparatus/fuge.io/issues/new">Let us know</a>
+          </p>
+        </div>
+      </section>
+
+    </div>
+
+    {{> footer}}
+
+    {{> analytics}}
+  </body>
+</html>
