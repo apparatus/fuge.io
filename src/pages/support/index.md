@@ -3,7 +3,7 @@ layout: main.html
 ---
 
 # Support
-There are many different ways to get in touch with Seneca contributors or the community in general:
+There are many different ways to get in touch with the fuge contributors or the community in general:
 
 - For __issues__ or __questions__ open an [issue][] on Github.
 - For __discussions__ we have a [Gitter][].
