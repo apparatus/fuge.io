@@ -1,0 +1,64 @@
+/*********************************************************************
+*
+* LOGOS
+*
+*********************************************************************/
+
+@import "../globals/variables";
+
+.logo {
+  display: inline-block;
+  cursor: pointer;
+  transition: opacity .5s ease-in;
+  
+  &:hover {
+    opacity: .6;
+  }
+}
+
+.logo {
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.logo-fuge {
+  height: 45px;
+  width: 45px;
+  padding-left: $ui-spacing-double - $ui-spacing-fourth;
+  font-size: $font-h1;
+  font-family: $font-rambla;
+  line-height: 45px;
+  background-image: url("/images/logo-fuge-small.png");
+  color: $gray-dark;
+  
+  &:hover {
+    color: $gray;
+  }
+}
+
+@media screen and (max-width: $mobile-rg) {
+  
+  .logo-fuge {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
+}
+
+// @media screen and (min-width: $mobile-rg + $breakpoint-step) and (max-width: $desktop-lg) {
+//   
+//   .logo.logo-fuge {
+//     width: 60px;
+//     background-size: cover;
+//   }
+//   
+// }
+
+// @media screen and (min-width: $desktop-lg + $breakpoint-step) {
+//   
+//   .logo.logo-seneca {
+//     width: 200px;
+//   }
+//   
+// }
