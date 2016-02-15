@@ -14,7 +14,7 @@ $ui-spacing-double   : $ui-spacing*2; /* 60px */
 
 // Font families
 
-$font-fira           : Fira Sans, Helvetica, Arial, sans-serif;
+$font-rambla         : Rambla, Helvetica, Arial, sans-serif;
 $font-open-sans      : Open Sans, Helvetica, Arial, sans-serif;
 $font-monospaced     : Menlo, Monaco, Consolas, monospaced;
 
@@ -43,8 +43,9 @@ $line-height-headings: 1.25;
 
 // Colours
 
-$orange               : #e28420;
-$orange-light         : lighten($orange, 20%);
+$orange              : #e28420;
+$orange-light        : lighten($orange, 20%);
+$orange-lighter      : lighten($orange, 35%);
 
 $red                 : #E22420;
 $gray-dark           : #333;

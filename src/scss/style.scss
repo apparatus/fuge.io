@@ -6,8 +6,13 @@
 *********************************************************************/
 
 // Global variables
+@import "globals/variables";
 
 // Components
+@import "components/base";
+@import "components/type";
+@import "components/lists";
+@import "components/margins";
 
 // External libraries
 @import "libs/flexboxgrid";
