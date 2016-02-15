@@ -6,15 +6,16 @@ This repo contains the documentation website for [fuge][]. This documentation is
 [fuge.io][] or can be run locally by cloning this repo and following the steps below.
 
 ## Run Locally
-After cloning, you will need to get dependencies via npm,
+After cloning, you will need to get dependencies via npm:
 
 ```
-npm install
+npm i
 ```
 
 Next simply build and serve to port `4000`,
 
 ```
+npm run build
 npm run docs
 ```
 
