@@ -1,0 +1,659 @@
+/*********************************************************************
+*
+* Fuge.io
+* Main stylesheet
+*
+*********************************************************************/
+
+// Global variables
+
+// Components
+
+// External libraries
+@import "libs/flexboxgrid";
+@import "libs/normalize";
+
+// html {
+//   font-size: 10px;
+// }
+// 
+// /*---- base ----*/
+// 
+// body {
+// 	font-family: "Muli";
+// 	font-size: 1.6rem;
+// 	line-height: 1.5;
+//   color: #f6efef;
+// 	background-color: #333;
+// }
+// 
+// .navbar {
+// 	box-shadow: 0 1px 5px 0px #333;
+// 	font-family: "Muli";
+//   letter-spacing: .06rem;
+//   background-color: white;
+//   border-bottom: 0;
+// 
+// }
+// 
+// .callout p {
+//   margin-top: 3rem;
+//   font-size: 1.8rem;
+//   font-style: italic;
+// }
+// 
+// .navbar img {
+//   height: 4.5rem;
+//   width: 4.5rem;
+//   margin-top: -0.9rem;
+//   margin-left: 1rem;
+//   float: left;
+// }
+// 
+// .navbar-default .navbar-nav > li > a  {
+//   color: #333333;
+//   font-size: 1.8rem;
+//   line-height: 2;
+//   padding-left:10px;
+//   padding-right: 10px;
+// }
+// 
+// .navbar-default .navbar-brand {
+//   font-family: 'Rambla';
+//   font-size: 4.5rem;
+//   color: #333333;
+// }
+// 
+// /*---- .prompt ----*/
+// .install {
+//   margin-left: 1rem;
+//   margin-right: 1rem;
+//   text-align: center;
+// }
+// 
+// .install pre {
+//   font-size: 30px;
+//   margin-bottom: 40px;
+//   line-height: 1.75;
+// }
+// 
+// pre code {
+//   white-space: pre;
+//   word-break: normal;
+//   word-wrap: normal;
+// }
+// 
+// p {
+//   font-size: 16px;
+//   font-weight: 400;
+//   margin-bottom: 30px;
+// }
+// 
+// .container a {
+//   text-decoration: underline;
+// }
+// 
+// pre {
+//   margin-bottom: 30px;
+//   font-weight: normal;
+//   line-height: 1.8;
+//   background-color: #f0f0f0;
+// }
+// 
+// /*~~~~~~~~~~~ Navigation ~~~~~~~~~~~*/
+// 
+// 
+// .fa {
+//   font-size: 28px;
+// }
+// 
+// .navbar-right {
+//   margin-right: 8px;
+// }
+// 
+// .navbar-font{
+//   font-family: 'Rambla';
+// }
+// 
+// .dropdown-menu {
+//   font-size: 18px;
+//   font-weight: 400;
+//   text-align: right;
+// }
+// 
+// .container {
+//   margin-top: 60px;
+// }
+// 
+// /*~~~~~~~~~~~ Headings ~~~~~~~~~~~*/
+// 
+// 
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6,
+// .h1,
+// .h2,
+// .h3,
+// .h4,
+// .h5,
+// .h6 {
+//   font-family: "Rambla";
+//   letter-spacing: .2rem;
+//   color: inherit;
+// }
+// 
+// h1 {
+//   width: 100%;
+//   margin-bottom: 40px;
+// }
+// 
+// h2 {
+//   line-height: 1.3em;
+//   margin-bottom: 20px;
+// }
+// 
+// h3 {
+//   line-height: 1.3em;
+//   margin-bottom: 20px;
+// }
+// 
+// h4 {
+//   line-height: 1.3em;
+//   margin-bottom: 20px;
+// }
+// 
+// .hp .grey-box h3 {
+//   font-size: 140%;
+//   margin-top: 2rem;
+//   letter-spacing: .06rem;
+//   font-family: 'Muli';
+// }
+// 
+// .header-box .tagline {
+//   color: #e28420;
+//   font-weight: bold!important;
+//   font-family: 'Rambla';
+// }
+// 
+// .center {
+//   text-align: center;
+// }
+// 
+// .header-box h2 {
+// 	font-size: 120%;
+//   font-family: 'Muli';
+// 	margin-right: auto;
+// 	margin-left: auto;
+// 	margin-top: -20px;
+// 	line-height: 1.3em;
+// 	width: 90%;
+//   letter-spacing: .06rem;
+// 	font-weight: 400;
+// }
+// 
+// .fullwidthtop {
+// 	width: 100%;
+// 	padding: 30px;
+//   padding-bottom:0;
+// 	margin-top: 51px;
+// 	margin-bottom: 0;
+// 	background-color: #333333;
+// 	box-shadow: 0 1px 5px -1px #333;
+// }
+// 
+// .splash-content > p > img {
+//   max-width: 100%;
+// }
+// 
+// .header-box {
+// 	padding: 0;
+// 	font-size: 21px;
+// 	line-height: 2;
+// 	color: #fff;
+// 	text-align: center;
+// }
+// 
+// .header-box img {
+//   width: 100px;
+//   margin-top: .25em;
+//   margin-bottom: 1.6em;
+//   line-height: 1.05em;
+// }
+// 
+// span.rule-r {
+//   border-bottom: 1px solid #e28420;
+//   height: 1px;
+//   float: right;
+//   width: 46%;
+// }
+// 
+// span.rule-l {
+//   border-bottom: 1px solid #e28420;
+//   height: 1px;
+//   float: left;
+//   width: 46%;
+// }
+// 
+// .sep {
+// 	width: 64.583333333333%;
+// 	margin: 40px auto;
+// 	height: 20px;
+// }
+// 
+// span.star {
+// 	width: 20px;
+// 	height: 20px;
+// 	margin: 0 auto -8px auto;
+// 	display: block;
+// }
+// 
+// /* ~~~~~~~~~ Links ~~~~~~~~~ */
+// 
+// 
+// a {
+// 	color: #E22420;
+// }
+// 
+// a:hover {
+// 	color: #fff;
+// }
+// 
+// a:visited {
+// 	color: #E22420;
+// }
+// 
+// 
+// /* ~~~~~~~~~ Hover Boxes Grey ~~~~~~~~~ */
+// 
+// .grey-box {
+//   display: block;
+//   font-size: 90%;
+//   padding: 20px 20px;
+//   text-align: center;
+//   color: #f6efef;
+//   -webkit-border-radius: 3px;
+//   border-radius: 3px;
+//   -webkit-transition: background .35s ease-in-out;
+//   -moz-transition: background .35s ease-in-out;
+//   -ms-transition: background .35s ease-in-out;
+//   -o-transition: background .35s ease-in-out;
+//   transition: background .35s ease-in-out;
+// }
+// 
+// .container .col-md-4 .grey-box {
+//   text-decoration: none;
+// }
+// 
+// .grey-box:hover {
+//   background: #666;
+//   text-decoration: none;
+// }
+// 
+// 
+// @media (min-width:769px){
+//   .navbar {
+//     position: fixed !important;
+//   }
+// 
+// }
+// 
+// @media (max-width:848px) {
+//   .fullwidthtop {
+//     margin-top: 122px !important;
+//   }
+// }
+// 
+// @media (min-width:849px) {
+//   .fullwidthtop {
+//     margin-top: 67px !important;
+//   }
+// }
+// 
+// @media (max-width:768px){
+//   .fullwidthtop {
+//     margin-top: 0 !important;
+//   }
+// 
+// }
+// 
+// /* ~~~~~~~~~ Error ~~~~~~~~~ */
+// 
+// .error .container {
+//   text-align: center;
+// }
+// 
+// .error h1 {
+//   color: #d00;
+// }
+// 
+// /* ~~~~~~~~~ Footer ~~~~~~~~~ */
+// 
+// 
+// .footer-one {
+//   width: 100%;
+//   padding: 30px;
+//   padding-top: 0;
+//   margin-top: 50px;
+//   color: #f6efef;
+//   margin-bottom: 30px;
+//   font-size: 21px;
+//   float: left;
+//   text-align: center;
+//   background-color: #666;
+//   box-shadow: 0 -1px 5px 0 #333;
+// }
+// 
+// 
+// .footer-two {
+//   width: 100%;
+//   padding: 30px;
+//   float: left;
+//   margin-top: -50px;
+//   margin-bottom: -50px;
+//   font-size: 15px;
+//   font-weight: lighter;
+//   color: #fff;
+//   text-align: center;
+//   box-shadow: 0 -1px 5px 0 #333;
+//   background-color: #333;
+// }
+// 
+// .footer-two a {
+//   color: #fff;
+//   text-decoration: underline;
+// }
+// 
+// .footer-one a {
+//   color: #fff;
+//   text-decoration: none;
+//   font-size: 2rem;
+// }
+// 
+// .social {
+// 	padding: 60px 0 30px 0;
+// 	font-style: normal;
+// 	font-weight: 900;
+// 	font-size: 2rem;
+// 	text-transform: uppercase;
+// 	letter-spacing: 4px;
+//   font-family: 'Rambla';
+// }
+// 
+// .social p a i {
+//   font-style: normal;
+//   font-weight: 600;
+//   font-size: 36px;
+//   vertical-align: middle;
+//   text-transform: uppercase;
+//   letter-spacing: 4px;
+// }
+// 
+// .container ul {
+//   margin-bottom: 2rem;
+// }
+// 
+// /* smartphones, iPhone, portrait 480x320 phones */
+// @media (min-width:320px) {
+//   .navbar {
+//     position: relative;
+//     margin-bottom: 0;
+//   }
+//   .navbar-header {
+//     text-align: center;
+//     margin-top: 1rem;
+//   }
+//   .navbar-brand  {
+//     float: none;
+//     margin-left: 0;
+//     padding-left: 0;
+//   }
+//   .navbar-nav {
+//     text-align: center;
+//   }
+//   .navbar img {
+//     float: none;
+//     margin-top: 0;
+//     display: inline-block;
+//   }
+//   .fullwidthtop {
+//     margin-top: 0;
+//   }
+//   .header-box h1 {
+//     font-size: 3rem;
+//   }
+//   .header-box h2 {
+//     font-size: 2rem;
+//   }
+//   .header-box .tagline {
+//     margin-top: .25rem;
+//     font-size: 1.5rem;
+//     margin-bottom: 0;
+//   }
+//   .install {
+//     margin-left: 1.5rem;
+//     margin-right: 1.5rem;
+//   }
+//   .install pre {
+//     font-size: 1.5rem;
+//     line-height: 1.5;
+//   }
+//   .container {
+//     margin-left: 10px;
+//     margin-right: 10px;
+//   }
+//   .container h1 {
+//     font-size: 4rem;
+//     margin-top: 0;
+//     margin-bottom: 2rem;
+//   }
+//   .container h2 {
+//     font-size: 3rem;
+//     margin-top: 0;
+//     margin-bottom: 1.5rem;
+//   }
+//   .container h3 {
+//     font-size: 2.5rem;
+//     margin-top: 0;
+//     margin-bottom: 1rem;
+//   }
+//   .container h4 {
+//     font-family: 'Muli';
+//     letter-spacing: .06rem;
+//     font-size: 1.8rem;
+//     margin-top: 0;
+//     margin-bottom: 1rem;
+//   }
+//   .footer-one img {
+//     height: 60%;
+//     width: 60%;
+//   }
+// }
+// 
+// /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+// @media (min-width:481px) {
+// 
+// }
+// 
+// /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+// @media (min-width:641px) {
+//   .install {
+//     margin-left: 10rem;
+//     margin-right: 10rem;
+//   }
+//   .container {
+//     margin-left: auto;
+//     margin-right: auto;
+//   }
+// 
+//   .install pre {
+//     font-size: 2.4rem;
+//   }
+//   .footer-one img {
+//     height: 40%;
+//     width: 40%;
+//   }
+// 
+//   .header-box .tagline {
+//     margin-top: .25rem;
+//     font-size: 2rem;
+//     margin-bottom: 0;
+//   }
+// }
+// 
+// /* tablet, landscape iPad, laptops and desktops */
+// @media (min-width:961px) {
+//   .install {
+//     margin-left: 20rem;
+//     margin-right: 20rem;
+//   }
+//   .install pre {
+//     font-size: 3rem;
+//   }
+//   .container {
+//     width: 970px;
+//   }
+//   .container h1 {
+//     font-size: 5.5rem;
+//     margin-top: 0;
+//     margin-bottom: 2rem;
+//   }
+//   .container h2 {
+//     font-size: 3.5rem;
+//     margin-top: 0;
+//     margin-bottom: 1.5rem;
+//   }
+//   .container h3 {
+//     font-size: 3rem;
+//     margin-top: 0;
+//     margin-bottom: 1rem;
+//   }
+//   .container h3 {
+//     font-size: 2.5rem;
+//     margin-top: 0;
+//     margin-bottom: 1rem;
+//   }
+//   .footer-one img {
+//     height: 20%;
+//     width: 20%;
+//   }
+// }
+// 
+// @media (min-width: 1200px)
+// .container {
+//     width: 1170px;
+//   }
+// }
+// 
+// .annotation ul, .annotation ol {
+//   margin: 25px 0;
+// }
+// 
+// .annotation ul li, .annotation ol li {
+//   font-size: 14px;
+//   line-height: 18px;
+//   margin: 10px 0;
+// }
+// 
+// 
+// 
+// 
+// blockquote {
+//   border-left: 5px solid #ccc;
+//   margin: 0;
+//   padding: 1px 0 1px 1em;
+// }
+// 
+// .sections blockquote p {
+//   font-family: Menlo, Consolas, Monaco, monospace;
+//   font-size: 12px; line-height: 16px;
+//   color: #999;
+//   margin: 10px 0 0;
+//   white-space: pre-wrap;
+// }
+// 
+// ul.sections {
+//   list-style: none;
+//   margin:0;
+// }
+// 
+// ul.sections > li > div {
+//   -moz-box-sizing: border-box;
+//   -ms-box-sizing: border-box;
+//   -webkit-box-sizing: border-box;
+//   -khtml-box-sizing: border-box;
+//   box-sizing: border-box;
+// }
+// 
+// /*---------------------- Low resolutions (> 320px) ---------------------*/
+// @media only screen and (min-width: 320px) {
+//   .pilwrap { display: none; }
+// 
+//   ul.sections > li > div {
+//     display: block;
+//     padding:5px 10px 0 10px;
+//   }
+// }
+// 
+// /*----------------------  (> 481px) ---------------------*/
+// @media only screen and (min-width: 481px) {
+//   pre, tt, code {
+//     line-height: 18px;
+//   }
+//   p, ul, ol {
+//     margin: 0 0 15px;
+//   }
+// 
+// 
+//   #jump_to {
+//     padding: 5px 10px;
+//   }
+//   #jump_wrapper {
+//     padding: 0;
+//   }
+//   #jump_to, #jump_page {
+//     font: 10px Arial;
+//     text-transform: uppercase;
+//   }
+//   #jump_page .source {
+//     padding: 5px 10px;
+//   }
+//   #jump_to a.large {
+//     display: inline-block;
+//   }
+//   #jump_to a.small {
+//     display: none;
+//   }
+// 
+//   ul.sections > li > div.annotation ul, ul.sections > li > div.annotation ol {
+//     padding-left: 40px;
+//   }
+// 
+//   ul.sections > li {
+//     white-space: nowrap;
+//   }
+// 
+//   ul.sections > li > div {
+//     display: inline-block;
+//     width: 60%;
+//   }
+// 
+//   ul.sections > li > div.annotation {
+//     min-height: 5px;
+//     padding: 13px;
+//     max-width: 40%;
+//     overflow-x: hidden;
+//     white-space: normal;
+//     vertical-align: top;
+//     text-align: left;
+//   }
+// 
+//   ul.sections > li > div.content {
+//     vertical-align: top;
+//     border: none;
+//     -webkit-box-shadow: none;
+//     box-shadow: none;
+//   }
+// }
