@@ -16,23 +16,21 @@
   width: 100%;
   z-index: 20;
   
+  a {
+    color: $gray-dark;
+    
+    &:hover {
+      color: $gray;
+    }
+  }
+  
   .nav-bar {
-    padding-left: $ui-spacing-half;
     float: right;
     position: relative;
   }
   
-  .nav-search {
-    margin-left: $ui-spacing-half;
-  }
-  
-  .logo-seneca,
-  .nav-search {
+  .logo-fuge {
     float: left;
-  }
-  
-  .nav-bar {
-    float: right;
   }
   
 }
@@ -43,18 +41,10 @@
   left: -100%;
 }
 
-@media screen and (max-width: $desktop-rg) {
-  
-  .nav-search {
-    width: 65%;
-  }
+@media screen and (max-width: $mobile-rg) {
   
   .nav-items {
     display: none;
-  }
-    
-  .nav-main .nav-search {
-    margin: 0;
   }
   
   .nav-main label {
@@ -63,7 +53,7 @@
     margin-top: $ui-spacing-half;
     display: block;
     height: 20px;
-    width: 23px;
+    width: 21px;
     background: url("/images/icon-menu.svg") no-repeat 0 0;
     background-size: contain;
     cursor: pointer;
@@ -81,11 +71,18 @@
     width: 100vw;
     background-color: white;
     
-    li {
+    li, a {
       display: block;
+    }
+    
+    li {
       padding: $ui-spacing-half;
       width: 100%;
       border-top: $ui-border;
+      
+      &:hover {
+        background-color: lighten($gray, 55%);
+      }
       
       &:last-child {
         border-bottom: $ui-border;
@@ -95,7 +92,7 @@
   
 }
 
-@media screen and (min-width: $desktop-rg + $breakpoint-step) {
+@media screen and (min-width: $mobile-rg + $breakpoint-step) {
   
     .nav-items li {
       padding: $ui-spacing-third 0;
