@@ -1,0 +1,44 @@
+{
+  "source": "src",
+  "destination": "dist",
+  "plugins": {
+    "metalsmith-drafts": true,
+    "metalsmith-assets": {
+      "source": "./assets",
+      "destination": "."
+    },
+    "metalsmith-markdown": {
+      "smartypants": true,
+      "gfm": true,
+      "tables": true
+    },
+    "metalsmith-headings-identifier": {
+      "linkTemplate": "<a href='#%s' class='linkable' style='display:inline-block;font-size:small;text-decoration:none;vertical-align:middle'>&sect; </a>"
+    },
+    "metalsmith-sass": {
+      "outputDir": "stylesheets",
+      "outputStyle": "expanded"
+    },
+    "metalsmith-layouts": {
+      "engine": "handlebars",
+      "directory": "src/template/layouts",
+      "partials": "src/template/partials",
+      "pattern": "pages/**/*",
+      "default": "main.html"
+    },
+    "metalsmith-move-up": {
+     "pattern": [
+      "pages/**",
+      "images/favicon.ico"
+    ]
+    },
+    "metalsmith-ignore": [
+      "drafts/*",
+      "unfinished/*"
+    ]
+  },
+  "metalsmith-broken-link-checker": {
+    "allowRedirects": true,
+    "warn": true
+  }
+}
