@@ -29,6 +29,10 @@ h2 {
   font-size: $font-h2;
 }
 
+header h2 {
+  color: $orange;
+}
+
 h3 {
   font-size: $font-h3;
 }
@@ -40,6 +44,7 @@ h4 {
 h1, h2, h3, h4 {
   font-weight: $font-weight-bold;
   font-family: $font-rambla;
+  line-height: $line-height-headings;
 }
 
 // Helpers
@@ -81,10 +86,6 @@ b {
 
   h3 {
     font-size: $font-h4;
-  }
-
-  h1, h2, h3 {
-    line-height: $line-height-headings;
   }
 
   .txt-lead {
