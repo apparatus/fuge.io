@@ -16,7 +16,7 @@ body {
   line-height: $line-height-base;
   text-rendering: optimizeLegibility;
   font-weight: $font-weight-base;
-  color: $gray-light;
+  color: $gray-dark;
 }
 
 code, pre, kbd, samp {
@@ -30,7 +30,7 @@ h2 {
 }
 
 header h2 {
-  color: $orange;
+  color: $red;
 }
 
 h3 {
