@@ -9,7 +9,7 @@
     "test": "echo \"INFO: No test specified.\"",
     "start": "npm run build && npm run docs",
     "build": "metalsmith",
-    "docs": "metalsmith-start -p 4000",
+    "docs": "metalsmith-start -p 8000",
     "deploy": "surge --project ./dist/ --domain fuge.io"
   },
   "contributors": [

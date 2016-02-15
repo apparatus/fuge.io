@@ -43,11 +43,10 @@ $line-height-headings: 1.25;
 
 // Colours
 
-$orange              : #e28420;
-$orange-light        : lighten($orange, 20%);
-$orange-lighter      : lighten($orange, 35%);
-
 $red                 : #E22420;
+$red-lighter         : lighten($red, 40%);
+
+
 $gray-dark           : #333;
 $gray                : #666;
 $gray-light          : #ddd;
