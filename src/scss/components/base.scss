@@ -20,6 +20,11 @@
   background-color: $orange-lighter;
 }
 
+// Body
+body {
+  background-color: $gray-dark;
+}
+
 // Paragraphs
 p {
   margin-top: 0;
@@ -28,13 +33,13 @@ p {
 
 // Links
 a {
-  color: $orange;
+  color: $red;
   text-decoration: none;
   cursor: pointer;
   transition: color 0.2s ease-in;
   
   &:hover {
-    color: $orange-light;
+    color: lighten($red, 20%);
   }
   
   &:focus {

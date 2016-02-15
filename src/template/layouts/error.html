@@ -5,32 +5,25 @@
   </head>
   <body class="error">
     {{> menu}}
-
-    <div class="fullwidthtop">
-      <div class="row clearfix">
-        <div class="col-md-12 column">
-          <div class="header-box">
-            <img src="/images/icon-top.png" alt="design, develop, organise code" title="design, develop, organise code" height="auto" width="460">
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="row clearfix">
-        <div class="col-md-12 column">
+    
+    <main class="container-fluid" role="main">
+      <div class="row center-xs">
+        <div class="col-xs-12 col-md-10 col-lg-10">
           {{{contents}}}
         </div>
       </div>
-      <div class="callout">
-        <p>
-          Issues? From spelling errors to broken tutorials and everything in between, report
-          them <a href="https://github.com/apparatus/fuge.io/issues">here.</a>
-        </p>
+      <div class="row center-xs">
+        <div class="col-xs-12 col-md-10 col-lg-10">
+          <p>
+            Issues? From spelling errors to broken tutorials and everything in between, report
+            them <a href="https://github.com/apparatus/fuge.io/issues">here.</a>
+          </p>
+        </div>
       </div>
-    </div>
+    </main>
     {{> footer}}
-
+    
     {{> analytics}}
   </body>
 </html>
+
