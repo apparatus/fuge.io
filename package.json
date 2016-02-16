@@ -15,7 +15,8 @@
   "contributors": [
     "Peter Elger (https://github.com/pelger)",
     "David Clements (https://github.com/davidmarkclements)",
-    "Karolina Szczur (https://github.com/thefoxis)"
+    "Karolina Szczur (https://github.com/thefoxis)",
+    "Dean McDonnell (https://github.com/mcdonnelldean)"
   ],
   "dependencies": {
     "handlebars": "^4.0.5",
