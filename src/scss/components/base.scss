@@ -58,6 +58,10 @@ img, iframe, video {
   max-width: 100%;
 }
 
+img {
+  border-radius: $ui-radius;
+}
+
 // Separator
 .separator {
   position: relative;
