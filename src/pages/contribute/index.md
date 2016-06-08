@@ -17,7 +17,7 @@ Like any other project, there is plenty to be done by people of all skill levels
 If you have any questions, or want to help out, please stop by our issues boards.
 
 - For issues or questions on documentation, go to [fuge.io][org_issues].
-- For issues or questions on Seneca itself, go to [fuge][code_issues].
+- For issues or questions on fuge itself, go to [fuge][code_issues].
 
 ## Contributing guides
 
@@ -53,7 +53,7 @@ THE SOFTWARE.
 [Adding a tutorial]: ./adding-a-tutorial.html
 [fuge]: https://github.com/apparatus/fuge
 [fuge.io]: https://github.com/apparatus/fuge.io
-[code_issues]: https://github.com/apparatus/seneca/issues
+[code_issues]: https://github.com/apparatus/fuge/issues
 [org_issues]: https://github.com/apparatus/fuge.io/issues
 [other]: https://github.com/apparatus/fuge.io/contributors
 [contributors]: /contributors/
