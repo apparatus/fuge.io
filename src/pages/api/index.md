@@ -163,6 +163,6 @@ Searches a process' log or all processes' logs.
 __Note:__ ___Using 'grep "search string"' or 'grep "search string" all' without providing a process name searches all processes.___
 
 ## Exit
-Terminate all managed processes and exit
+Terminate all managed processes and exit.
 
-__Note:__ ___'quit' is also accepted___
+__Note:__ ___'quit' is also accepted.___
