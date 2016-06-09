@@ -22,7 +22,8 @@
 
 .panel-download,
 .panel-start,
-.panel-chat {
+.panel-chat,
+.panel-api {
   transition: none;
 }
 
@@ -41,5 +42,11 @@
 .panel-chat:hover {
   .icon-chat {
     background-position: 0 -40px;
+  }
+}
+
+.panel-api:hover {
+  .icon-api {
+    background-position: 0 -34px;
   }
 }
