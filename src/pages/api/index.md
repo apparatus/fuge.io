@@ -4,8 +4,9 @@ layout: main.html
 
 # API reference
 
+
 ## Help [Command...]
-- __Command:__ - name of the command that help is needed with. 
+- __Command:__ - name of the command that help is needed with.
 
 The help command prints out the available options, usage and syntax of the specified `Command`.
 
