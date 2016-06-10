@@ -23,7 +23,10 @@
 
 .icon-download,
 .icon-start,
-.icon-chat {
+.icon-chat,
+.icon-updates,
+.icon-bug,
+.icon-plus {
   height: 40px; 
 }
 
@@ -40,6 +43,20 @@
 .icon-download {
   width: 42px;
   background-image: url("/images/icon-download.svg");
+}
+
+.icon-bug {
+  width: 42px;
+  background-image: url("/images/icon-bug.svg");
+}
+
+.icon-updates {
+  width: 42px;
+  background-image: url("/images/icon-updates.svg");
+}
+.icon-plus {
+  width: 40px; 
+  background-image: url("/images/icon-plus.svg");
 }
 
 .icon-github {

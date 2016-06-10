@@ -22,24 +22,45 @@
 
 .panel-download,
 .panel-start,
-.panel-chat {
+.panel-chat,
+.panel-updates,
+.panel-bug,
+.panel-plus {
   transition: none;
 }
 
 .panel-download:hover {
   .icon-download {
-    background-position: 0 -40px;
+    opacity: 0.5;
   }
 }
 
 .panel-start:hover {
   .icon-start {
-    background-position: 0 -40px;
+    opacity: 0.5;
   }
 }
 
 .panel-chat:hover {
   .icon-chat {
-    background-position: 0 -40px;
+    opacity: 0.5;
+  }
+}
+
+.panel-updates:hover {
+  .icon-updates {
+    opacity: 0.5;
+  }
+}
+
+.panel-bug:hover {
+  .icon-bug {
+    opacity: 0.5;
+  }
+}
+
+.panel-plus:hover {
+  .icon-plus {
+    opacity: 0.5;
   }
 }

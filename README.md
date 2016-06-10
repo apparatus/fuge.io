@@ -1,4 +1,4 @@
-![logo](./src/files/assets/fuge-logo.png)
+![logo](./assets/files/fuge-logo.png)
 > An execution environment for micro service development with Node.js
 
 # fuge.io
@@ -12,11 +12,10 @@ After cloning, you will need to get dependencies via npm:
 npm i
 ```
 
-Next simply build and serve to port `4000`,
+Next simply build and serve to port `8000` using:
 
 ```
-npm run build
-npm run docs
+npm run start
 ```
 
 ## Contributing
