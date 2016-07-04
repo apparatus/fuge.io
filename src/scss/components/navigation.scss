@@ -15,24 +15,24 @@
   background-color: white;
   width: 100%;
   z-index: 20;
-  
+
   a {
     color: $gray-dark;
-    
+
     &:hover {
       color: $gray;
     }
   }
-  
+
   .nav-bar {
     float: right;
     position: relative;
   }
-  
+
   .logo-fuge {
     float: left;
   }
-  
+
 }
 
 .nav-menu-handle {
@@ -42,11 +42,11 @@
 }
 
 @media screen and (max-width: $mobile-rg) {
-  
+
   .nav-items {
     display: none;
   }
-  
+
   .nav-main label {
     float: right;
     margin-left: $ui-spacing-half;
@@ -57,12 +57,12 @@
     background: url("/images/icon-menu.svg") no-repeat 0 0;
     background-size: contain;
     cursor: pointer;
-    
+
     &:hover {
       opacity: .5;
     }
   }
-  
+
   .nav-menu-handle:checked ~ .nav-items {
     display: block;
     position: fixed;
@@ -70,30 +70,30 @@
     left: 0;
     width: 100vw;
     background-color: white;
-    
+
     li, a {
       display: block;
     }
-    
+
     li {
       padding: $ui-spacing-half;
       width: 100%;
       border-top: $ui-border;
-      
+
       &:hover {
         background-color: lighten($gray, 55%);
       }
-      
+
       &:last-child {
         border-bottom: $ui-border;
       }
     }
   }
-  
+
 }
 
 @media screen and (min-width: $mobile-rg + $breakpoint-step) {
-  
+
     .nav-items li {
       padding: $ui-spacing-third 0;
     }
