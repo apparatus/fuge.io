@@ -13,7 +13,8 @@
       "tables": true
     },
     "metalsmith-headings-identifier": {
-      "linkTemplate": "<a href='#%s' class='linkable' style='display:inline-block;font-size:medium;text-decoration:none;vertical-align:middle'>&sect; </a>"
+      "linkTemplate": "<a href='#%s' class='linkable' style='margin-left:-2rem; margin-right:1rem; display:inline-block;font-size:1.2rem;text-decoration:none;vertical-align:middle'>&sect;</a>",
+      "selector": "h1,h2,h3"
     },
     "metalsmith-sass": {
       "outputDir": "stylesheets",
