@@ -7,6 +7,7 @@ There are many different ways to get in touch with the fuge contributors or the 
 
 - For __issues__ or __questions__ open an [issue][] on Github.
 - For __discussions__ we have a [Gitter][].
+- Reach out directory on twitter to @pelger
 
 No matter how minor your issue is or how basic your question appears to be we want to hear it. We want you to get
 up and running as quickly as possible so please, ask away.
